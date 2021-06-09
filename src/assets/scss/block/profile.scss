@@ -1,0 +1,72 @@
+.profile {
+    position: fixed;
+    top: 182px;
+    left: 136px;
+    max-width: 350px;
+
+    &__info {
+        display: flex;
+        margin-bottom: 32px;
+    }
+
+    &__avatar {
+        min-width: 120px;
+        min-height: 120px;
+        margin-right: 24px;
+    }
+
+    &__props{
+
+    }
+
+    &__email{
+        margin-bottom: 16px;
+        display: block;
+    }
+
+    &__edit {
+        display: flex;
+        cursor: pointer;
+        svg {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+        }
+        p {
+            border-bottom: 1px solid #F05D63;
+            color: #F05D63;
+        }
+    }
+
+
+    &__name {
+        font-family: "Montserrat";
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    &__dashboard {
+        margin-bottom: 23px;
+        ul {
+            display: flex;
+        }
+        li {
+            margin-right: 48px;
+            &:last-child {
+                margin-right: 0;
+            }
+            p {
+                text-align: center;
+                font-weight: 700;
+                line-height: 1.33;
+                font-size: 18px;
+            }
+        }
+    }
+
+    &__descr {
+        line-height: 1.5;
+    }
+}

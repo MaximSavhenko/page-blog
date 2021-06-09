@@ -1,0 +1,29 @@
+.news-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 -12px;
+    &__item {
+        width: 50%;
+        padding: 0 12px 24px 12px;
+    }
+    
+    &__item-inner {
+        background-color: #fff;
+        padding: 56px 24px 24px 24px;
+        box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.06);
+        border-radius: 8px;
+        p {
+            font-family: "Montserrat";
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 1.22;
+            margin-bottom: 44px;
+        }
+    }
+
+    &__item-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+}
