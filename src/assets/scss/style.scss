@@ -160,7 +160,7 @@ p {
 }
 
 .container {
-  max-width: 1630px;
+  max-width: 1195px;
   padding: 0 15px;
   margin: 0 auto;
   position: relative;
@@ -320,44 +320,6 @@ textarea {
   }
 }
 
-input[type=checkbox] {
-  display: none;
-  &:checked ~ label::after {
-      opacity: 1;
-  }
-  // &:checked ~ label::before {
-  //     background-color: #FF3494;
-  // }
-}
-
-.checkbox {
-  position: relative;
-  display: flex;
-  align-items: center;
-  &:before {
-      content:'';
-      display: inline-block;
-      background-color: #424242;
-      width: 11px;
-      height: 11px;
-      margin-right: 8px;
-      transition: all .1s;
-  }
-  &::after {
-      content:'';
-      position: absolute;
-      width: 8px;
-      height:5px;
-      border-bottom: 2px solid #fff;
-      border-left: 2px solid #fff;
-      transform: rotate(-45deg);
-      opacity: 0;
-      top: 4px;
-      left: 2px;
-      transition: all .2s;
-      display: block;
-  }
-}
 
 img {
   max-width: 100%;
@@ -365,17 +327,16 @@ img {
 }
 
 .main {
-  padding: 72px 0 0 533px;
+  padding: 72px 0 0 423px;
   .container {
     max-width: 826px;
   }
 }
 
-@import 'block/form_verif.scss';
 @import 'block/header.scss';
 @import 'block/tabs.scss';
 @import 'block/profile.scss';
-@import 'block/checkbox.scss';
+@import 'block/toggle.scss';
 @import 'block/news-card.scss';
 
 

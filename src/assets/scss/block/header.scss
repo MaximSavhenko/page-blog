@@ -4,7 +4,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 25px 0;
+        padding: 18px 0 14px 0;
     }
 
     &__burger-position {
@@ -23,6 +23,7 @@
     &__nav-list {
         display: flex;
         align-items: center;
+        margin-right: -8px;
     }
 
     &__nav-item {
@@ -30,16 +31,19 @@
 
     &__nav-name{
         margin-right: 20px;
+        letter-spacing: -0.1px;
     }
 
     &__nav-avatar {
-        margin-right: 30px;
+        margin-right: 13px;
         display: flex;
         align-items: center;
         cursor: pointer;
         &:after {
             content:'';
             display: inline-block;
+            position: relative;
+            top: -2px;
             width: 8px;
             height: 8px;
             border-bottom: 1px solid #000;
@@ -52,10 +56,9 @@
 
     &__nav-icon-block {
         svg {
-            fill: #3E4056;
-            width: 14px;
-            height: 16px;
-            margin-right: 17px;
+            width: 32px;
+            height: 32px;
+            // margin-right: 17px;
             cursor: pointer;
             &:last-child {
                 margin-right: 0;

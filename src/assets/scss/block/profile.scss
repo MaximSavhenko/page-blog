@@ -1,8 +1,9 @@
 .profile {
     position: fixed;
-    top: 182px;
-    left: 136px;
+    top: 183px;
+    left: 369px;
     max-width: 350px;
+    z-index: 1;
 
     &__info {
         display: flex;
@@ -20,17 +21,21 @@
     }
 
     &__email{
-        margin-bottom: 16px;
+        margin-bottom: 15px;
         display: block;
+        letter-spacing: -.5px;
     }
 
     &__edit {
         display: flex;
         cursor: pointer;
         svg {
-            width: 20px;
-            height: 20px;
+            width: 17px;
+            height: 17px;
             margin-right: 8px;
+            position: relative;
+            top: 4px;
+            // left: -1px;
         }
         p {
             border-bottom: 1px solid #F05D63;
@@ -40,11 +45,12 @@
 
 
     &__name {
+        display: block;
         font-family: "Montserrat";
         font-size: 24px;
         font-weight: 600;
         margin-bottom: 8px;
-        display: block;
+        line-height: 1.1;
     }
 
     &__dashboard {
@@ -60,13 +66,55 @@
             p {
                 text-align: center;
                 font-weight: 700;
-                line-height: 1.33;
+                line-height: 1.1;
                 font-size: 18px;
+            }
+            span {
+                line-height: 1.7;
             }
         }
     }
 
     &__descr {
         line-height: 1.5;
+    }
+    &__btn{
+        position: absolute;
+        top: -2px;
+        right: 13px;
+        width: 32px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    &__dropdown-list{
+        display: none;
+        position: absolute;
+        top: 40px;
+        right: -134px;;
+        z-index: 20000;
+        background-color: #fff;
+        padding: 24px 0 25px 0;
+        opacity: .94;
+        border-radius: 8px;
+        li {
+            cursor: pointer;
+            padding: 8px 23px 8px 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span {
+                margin-left: 16px;
+                line-height: 1.4;
+                font-weight: 600;
+            }
+            &:hover {
+                transition: all .3s;
+                background: #ECF1F8;
+            }
+        }
     }
 }

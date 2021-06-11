@@ -1,4 +1,4 @@
-<svg viewBox="0 0 32 32">
+<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="share recap" opacity="0.98">
 <rect id="Rectangle 2 Copy 2" opacity="0.01" width="32" height="32" fill="#EFF3F6"/>
 <rect id="Rectangle 10" x="10" y="12" width="12" height="10" rx="2" stroke="#3E4056" stroke-width="2"/>
@@ -10,4 +10,6 @@
 <path d="M8 13C8 11.8954 8.89543 11 10 11H22C23.1046 11 24 11.8954 24 13V16C24 16.5523 23.5523 17 23 17H9C8.44772 17 8 16.5523 8 16V13Z"/>
 </mask>
 <path d="M8 13C8 11.8954 8.89543 11 10 11H22C23.1046 11 24 11.8954 24 13V16C24 16.5523 23.5523 17 23 17H9C8.44772 17 8 16.5523 8 16V13Z" fill="white" stroke="#3E4056" stroke-width="4" mask="url(#path-6-inside-1)"/>
+</g>
+</g>
 </svg>
